@@ -1,17 +1,14 @@
 package com.example.StudentManagementSystem.controller;
 
 import com.example.StudentManagementSystem.studentservice.StudentService;
-import com.example.StudentManagementSystem.studentservice.StudentServiceImpl;
-import dto.StudentRequestDTO;
-import dto.StudentResponseDTO;
+import com.example.StudentManagementSystem.dto.StudentRequestDTO;
+import com.example.StudentManagementSystem.dto.StudentResponseDTO;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
-import java.util.Collections;
 import java.util.List;
 
 @RestController

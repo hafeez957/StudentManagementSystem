@@ -3,9 +3,9 @@ package com.example.StudentManagementSystem.studentservice;
 import com.example.StudentManagementSystem.model.Address;
 import com.example.StudentManagementSystem.model.Student;
 import com.example.StudentManagementSystem.repository.StudentRepository;
-import dto.AddressResponseDTO;
-import dto.StudentRequestDTO;
-import dto.StudentResponseDTO;
+import com.example.StudentManagementSystem.dto.AddressResponseDTO;
+import com.example.StudentManagementSystem.dto.StudentRequestDTO;
+import com.example.StudentManagementSystem.dto.StudentResponseDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

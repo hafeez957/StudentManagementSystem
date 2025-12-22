@@ -1,8 +1,7 @@
 package com.example.StudentManagementSystem.studentservice;
 
-import com.example.StudentManagementSystem.model.Student;
-import dto.StudentRequestDTO;
-import dto.StudentResponseDTO;
+import com.example.StudentManagementSystem.dto.StudentRequestDTO;
+import com.example.StudentManagementSystem.dto.StudentResponseDTO;
 
 import java.util.List;
 
