@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class StudentRequestDTO {
+    private Long id;
     private String name;
 //    private long contactNO;
     private String email;

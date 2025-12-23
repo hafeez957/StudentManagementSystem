@@ -15,7 +15,7 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private int age;
+    private Integer age;
 //    private long contactNO;
     private String email;
     @OneToOne(cascade = CascadeType.ALL)
