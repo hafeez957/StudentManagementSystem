@@ -18,7 +18,7 @@ public class StudentViewController {
 
     private final StudentService studentService;
 
-    @GetMapping({"/","","/index"})
+    @GetMapping({"","/index"})
     public String display(Model model) {
 
         List<StudentResponseDTO> students = studentService.getAllStudents();
@@ -49,7 +49,7 @@ public class StudentViewController {
     }
 
 
-    @GetMapping({"/","","/form"})
+    @GetMapping({"","/form"})
     public String displayForm(Model model) {
         model.addAttribute("student",new StudentResponseDTO());
 //        List<StudentResponseDTO> students = studentService.getAllStudents();
