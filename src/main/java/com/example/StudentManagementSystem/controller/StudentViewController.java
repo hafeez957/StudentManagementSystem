@@ -49,7 +49,7 @@ public class StudentViewController {
     }
 
 
-    @GetMapping({"","/form"})
+    @GetMapping({"","/form","/","/home"})
     public String displayForm(Model model) {
         model.addAttribute("student",new StudentResponseDTO());
 //        List<StudentResponseDTO> students = studentService.getAllStudents();
